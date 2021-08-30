@@ -1,0 +1,10 @@
+io\tbc\spring\ws\MediumCalculatorApplication.class
+com\medium\types\calculator\AdditionInput.class
+com\medium\types\calculator\SubtractionInput.class
+com\medium\types\calculator\ObjectFactory.class
+com\medium\types\calculator\DivisionInput.class
+com\medium\types\calculator\MultiplicationInput.class
+com\medium\types\calculator\Output.class
+io\tbc\spring\ws\endpoint\Calculator.class
+io\tbc\spring\ws\config\SoapWebServiceConfiguration.class
+com\medium\types\calculator\package-info.class
