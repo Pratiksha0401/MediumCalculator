@@ -23,33 +23,6 @@
                 </xsd:complexType>
             </xsd:element>
 
-            <xsd:element name="SubtractionInput">
-                <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="number1" type="xsd:int" />
-                        <xsd:element name="number2" type="xsd:int" />
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-
-            <xsd:element name="MultiplicationInput">
-                <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="number1" type="xsd:int" />
-                        <xsd:element name="number2" type="xsd:int" />
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-
-            <xsd:element name="DivisionInput">
-                <xsd:complexType>
-                    <xsd:sequence>
-                        <xsd:element name="number1" type="xsd:int" />
-                        <xsd:element name="number2" type="xsd:int" />
-                    </xsd:sequence>
-                </xsd:complexType>
-            </xsd:element>
-
             <xsd:element name="output">
                 <xsd:complexType>
                     <xsd:sequence>

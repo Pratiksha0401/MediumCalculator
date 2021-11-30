@@ -1,0 +1,213 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-30T09:55:10.471Z",
+        "line": 4,
+        "name": "Addition of two numbers",
+        "description": "",
+        "id": "calculator-to-addition-of-two-number;addition-of-two-numbers",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 249915900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Two numbers 2 and 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 12
+                },
+                {
+                  "val": "3",
+                  "offset": 18
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.two_numbers_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Result of addtion with status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 35
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.result_of_addtion_with_status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T09:55:10.781Z",
+        "line": 14,
+        "name": "wants to add two numbers",
+        "description": "",
+        "id": "calculator-to-addition-of-two-number;wants-to-add-two-numbers;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17769700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "two numbers are 2 and 3",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 16
+                },
+                {
+                  "val": "3",
+                  "offset": 22
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.two_numbers_are_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Result with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.result_with_Status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T09:55:10.799Z",
+        "line": 15,
+        "name": "wants to add two numbers",
+        "description": "",
+        "id": "calculator-to-addition-of-two-number;wants-to-add-two-numbers;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17397000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "two numbers are 4 and 6",
+            "match": {
+              "arguments": [
+                {
+                  "val": "4",
+                  "offset": 16
+                },
+                {
+                  "val": "6",
+                  "offset": 22
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.two_numbers_are_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Result with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.result_with_Status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-11-30T09:55:10.816Z",
+        "line": 16,
+        "name": "wants to add two numbers",
+        "description": "",
+        "id": "calculator-to-addition-of-two-number;wants-to-add-two-numbers;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16543500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "two numbers are 7 and 8",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7",
+                  "offset": 16
+                },
+                {
+                  "val": "8",
+                  "offset": 22
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.two_numbers_are_and(java.lang.Integer,java.lang.Integer)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Result with Status code 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 24
+                }
+              ],
+              "location": "io.tbc.spring.ws.stepDefinations.CalculatorSteps.result_with_Status_code(java.lang.Integer)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Calculator to addition of two number",
+    "description": "  I want to use this template for calculator feature file",
+    "id": "calculator-to-addition-of-two-number",
+    "keyword": "Feature",
+    "uri": "classpath:calculator.feature",
+    "tags": []
+  }
+]

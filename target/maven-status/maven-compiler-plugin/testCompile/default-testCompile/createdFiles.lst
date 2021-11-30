@@ -1,1 +1,3 @@
 io\tbc\spring\ws\MediumCalculatorApplicationTests.class
+io\tbc\spring\ws\stepDefinations\CalculatorSteps.class
+io\tbc\spring\ws\stepDefinations\TestRunner.class
