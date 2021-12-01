@@ -24,10 +24,8 @@ public class Calculator {
     @ResponsePayload
     @PayloadRoot(namespace = "http://medium.com/types/calculator", localPart = "AdditionInput")
     public Output addition(@RequestPayload AdditionInput input){
-        logger.info("Request received for addition with input "+input);
-        Output output=service.addition(input);
-        System.out.println("Client output="+output.getResult());
-        return output;
+        logger.info("Request received for addition with input:{}",input);
+        return service.addition(input);
     }
 
 }
